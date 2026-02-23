@@ -1,147 +1,231 @@
-# 🎯 Visual-Security
+非常抱歉，是我刚才疏忽了，没有仔细识别您上传的新文件内容，误以为是之前的黄历项目。感谢您的指正！
+
+我已经重新仔细研读了您上传的 `DOCTYPE.txt` 文件。这是一个**视觉错觉（Visual Illusions）**展示网站，包含了多种经典的视错觉图形（如赫林错觉、缪勒 - 莱耶错觉、旋转蛇等），旨在通过互动演示来探索人类视觉感知的奥秘。
+
+下面为您重新撰写一份**充满修仙问道口吻**，且包含**动态视觉效果**的 README：
+
+---
+
+```markdown
 <div align="center">
-<!-- 动态ASCII艺术标题（视觉安全主题） -->
-<pre>
-  ██╗   ██╗██████╗ ███████╗███████╗██╗   ██╗██╗  ██╗███████╗██████╗ 
-  ██║   ██║██╔══██╗██╔════╝██╔════╝██║   ██║██║ ██╔╝██╔════╝██╔══██╗
-  ██║   ██║██████╔╝█████╗  █████╗  ██║   ██║█████╔╝ █████╗  ██████╔╝
-  ██║   ██║██╔══██╗██╔══╝  ██╔══╝  ██║   ██║██╔═██╗ ██╔══╝  ██╔══██╗
-  ╚██████╔╝██████╔╝███████╗███████╗╚██████╔╝██║  ██╗███████╗██║  ██║
-   ╚═════╝ ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-</pre>
 
-<!-- 动态徽章（实时更新仓库数据） -->
-[![GitHub Stars](https://img.shields.io/github/stars/badhope/Visual-Security?style=for-the-badge&color=ffcb47&label=Stars&logo=github)](https://github.com/badhope/Visual-Security/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/badhope/Visual-Security?style=for-the-badge&color=82baff&label=Forks&logo=github)](https://github.com/badhope/Visual-Security/forks)
-[![GitHub Issues](https://img.shields.io/github/issues/badhope/Visual-Security?style=for-the-badge&color=ff6b6b&label=Issues&logo=github)](https://github.com/badhope/Visual-Security/issues)
-[![License](https://img.shields.io/github/license/badhope/Visual-Security?style=for-the-badge&color=95e1d3&label=License&logo=opensourceinitiative)](https://github.com/badhope/Visual-Security/blob/main/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/badhope/Visual-Security?style=for-the-badge&color=e55934&label=Last%20Commit&logo=git)](https://github.com/badhope/Visual-Security/commits/main)
+# 👁️ 幻真诀 · 视觉迷宫 | Visual Illusion Realm
+### “眼见未必为实，心见方得真相”
 
-<!-- 动态加载的视觉安全动图（示例） -->
-![Visual Security Demo](https://raw.githubusercontent.com/badhope/Visual-Security/main/assets/visual-security-demo.gif)
+> **“凡所有相，皆是虚妄。”**
+>
+> 各位道友，请留步！🙏
+>
+> 贫道观诸位眼神迷离，似被红尘幻象所惑。今日特开此**「幻真诀」**秘境，收录天下奇诡之**视觉错觉**大法。
+>
+> 此处图形，静者似动，直者似弯，大者似小。非是图画有灵，实乃诸位**心神（大脑）**被眼耳鼻舌身意所骗，产生了“幻觉”。
+>
+> 入我门来，修习此法，可破除“眼见为实”之执念，洞察感知之虚妄，早日修成**“慧眼”**！
 
+<br>
+
+<!-- 动态效果：旋转的螺旋/蛇形错觉模拟 -->
+<div style="position: relative; width: 120px; height: 120px; margin: 20px auto;">
+  <div style="position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg, #000, #fff, #000, #fff, #000, #fff, #000, #fff); animation: spin-illusion 4s linear infinite; filter: blur(1px);"></div>
+  <div style="position: absolute; inset: 10px; border-radius: 50%; background: conic-gradient(from 180deg, #fff, #000, #fff, #000, #fff, #000, #fff, #000); animation: spin-illusion-reverse 4s linear infinite;"></div>
+  <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 40px; color: #fff; text-shadow: 0 0 10px #000; z-index: 10;">👁️</div>
 </div>
 
-## 📖 项目介绍
-Visual-Security 是一个专注于**视觉安全领域**的开源工具库，涵盖图像加密、数字水印、隐写分析、视觉内容篡改检测、人脸防伪等核心功能。本项目旨在为研究人员、开发者提供开箱即用的视觉安全算法实现，同时兼顾易用性和可扩展性，助力视觉安全相关的研究与工程落地。
+[![Version](https://img.shields.io/badge/Version-1.0.0-purple?style=for-the-badge)](https://github.com/your-username/visual-illusions)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![Illusions](https://img.shields.io/badge/Illusions-12%2B%20Types-red?style=for-the-badge)](https://github.com/your-username/visual-illusions)
 
-### ✨ 核心特性
-| 功能模块 | 描述 | 状态 |
-|---------|------|------|
-| 🔐 图像加密 | 基于AES/混沌算法的图像像素级加密、分块加密 | ✅ 已实现 |
-| 🌊 数字水印 | 盲水印/可见水印嵌入与提取、鲁棒性水印算法 | ✅ 已实现 |
-| 🕵️ 隐写分析 | 检测图像中隐藏的秘密信息、隐写算法对抗 | 🚧 开发中 |
-| 🚨 篡改检测 | 图像区域篡改定位、AI生成图像识别 | 🚧 开发中 |
-| 🧑‍💻 易用接口 | 统一的API设计，支持一键调用所有核心算法 | ✅ 已实现 |
+[🌀 进入幻境 (在线体验)](https://your-username.github.io/visual-illusions/) &nbsp; [📜 参悟功法 (文档)](#-炼化秘籍技术架构)
 
-## 🚀 快速开始
-### 环境要求
-- Python ≥ 3.8
-- OpenCV ≥ 4.8.0
-- NumPy ≥ 1.24.0
-- Pillow ≥ 10.0.0
-
-### 安装依赖
-```bash
-# 克隆仓库
-git clone https://github.com/badhope/Visual-Security.git
-cd Visual-Security
-
-# 安装依赖
-pip install -r requirements.txt
-```
-
-### 基础使用示例
-#### 1. 图像加密与解密
-```python
-from visual_security.crypto import ImageEncryptor
-
-# 初始化加密器（支持AES/Chaos算法）
-encryptor = ImageEncryptor(algorithm="AES", key="your-secret-key-16bytes")
-
-# 加密图像
-encryptor.encrypt(
-    input_path="assets/test_image.jpg",
-    output_path="assets/encrypted_image.jpg"
-)
-
-# 解密图像
-encryptor.decrypt(
-    input_path="assets/encrypted_image.jpg",
-    output_path="assets/decrypted_image.jpg"
-)
-```
-
-#### 2. 数字水印嵌入与提取
-```python
-from visual_security.watermark import Watermarker
-
-# 初始化水印器
-watermarker = Watermarker(watermark_text="Visual-Security-2024")
-
-# 嵌入水印
-watermarker.embed(
-    input_path="assets/test_image.jpg",
-    output_path="assets/watermarked_image.jpg"
-)
-
-# 提取水印
-extracted_text = watermarker.extract("assets/watermarked_image.jpg")
-print("提取的水印内容：", extracted_text)
-```
-
-## 📂 项目结构
-```
-Visual-Security/
-├── assets/               # 测试资源、演示动图
-├── examples/             # 完整使用示例
-│   ├── crypto_demo.py    # 图像加密示例
-│   └── watermark_demo.py # 水印示例
-├── visual_security/      # 核心代码库
-│   ├── crypto/           # 图像加密模块
-│   ├── watermark/        # 数字水印模块
-│   ├── steganalysis/     # 隐写分析模块（开发中）
-│   └── tamper/           # 篡改检测模块（开发中）
-├── tests/                # 单元测试
-├── requirements.txt      # 依赖清单
-└── LICENSE               # 许可证
-```
-
-## 🎨 动态视觉效果扩展
-本仓库支持自定义动态标题和图案：
-1. **替换ASCII艺术标题**：可通过 [ASCII Art Generator](https://patorjk.com/software/taag/) 生成自定义视觉安全主题的ASCII艺术，替换顶部的标题块。
-2. **添加动态演示图**：将自己的视觉安全算法演示动图放到 `assets/` 目录，替换README中的动图链接。
-3. **自定义动态徽章**：通过 [Shields.io](https://shields.io/) 生成个性化动态徽章（如下载量、代码行数等）。
-
-## 🤝 贡献指南
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交修改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
-
-我们欢迎所有形式的贡献：算法优化、新功能开发、Bug修复、文档完善等。
-
-## 📄 许可证
-本项目采用 [MIT License](https://github.com/badhope/Visual-Security/blob/main/LICENSE) 开源许可证，自由使用、修改和分发。
-
-## 💬 交流与反馈
-- 提交 [Issue](https://github.com/badhope/Visual-Security/issues) 反馈问题/建议
-- 邮件：badhope@example.com（可替换为实际邮箱）
-
-<div align="center">
-<!-- 动态底部装饰 -->
-<pre>
-  ┌─────────────────────────────────────────────────┐
-  │ 🌟 Visual Security - 守护视觉内容的每一个像素 🌟 │
-  └─────────────────────────────────────────────────┘
-</pre>
 </div>
 
 ---
 
-### 关键动态特性说明
-1. **动态徽章**：通过 Shields.io 生成的徽章会实时拉取仓库的 stars、forks、最后提交时间等数据，无需手动更新。
-2. **ASCII艺术标题**：采用视觉安全主题的ASCII艺术，可通过在线工具快速替换为自定义样式，实现标题“动态变化”。
-3. **动态演示图**：将算法运行的动图放在 `assets/` 目录，README会自动加载最新的演示效果。
-4. **自适应布局**：在不同设备（PC/移动端）下，标题、徽章和内容会自动适配显示，保持视觉一致性。
+## 📜 【秘境缘起】
+
+道友可知，吾等肉眼所见之世界，并非真实之“道”，而是**心神（大脑）**对光影信号的重构。
+
+世间有诸多**“幻术”**（Visual Illusions），能轻易欺骗吾等感官：
+*   明明静止的图画，为何在道友眼中**疯狂旋转**？
+*   明明平行的直线，为何看起来**弯曲变形**？
+*   明明一样长的线段，为何一端显得**更长**？
+
+贫道搜集天下奇术，以 **HTML5** 为阵基，**CSS3** 为符箓，**JavaScript** 为灵力，炼成此**「幻真诀」**。旨在让道友在一次次“看走眼”的惊愕中，参透**“感知即虚妄”**的无上真理。
+
+---
+
+## ⚡ 【核心幻术】
+
+本秘境收录十二重以上幻阵，每一重皆是对道友情商的考验：
+
+<!-- 动态网格展示幻术类型 -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
+
+  <!-- 幻术 1: 运动错觉 -->
+  <div style="background: rgba(20, 20, 30, 0.9); border: 1px solid #a855f7; border-radius: 12px; padding: 20px; position: relative; overflow: hidden; box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: repeating-radial-gradient(circle, transparent, transparent 10px, rgba(168, 85, 247, 0.1) 10px, rgba(168, 85, 247, 0.1) 20px); animation: pulse-bg 3s infinite;"></div>
+    <h3 style="color: #d8b4fe; margin-top: 0; position: relative; z-index: 1;">🌀 第一重：静图动视</h3>
+    <p style="color: #cbd5e1; font-size: 0.9em; position: relative; z-index: 1;">
+      <strong>代表幻术：</strong>旋转蛇、弗雷泽螺旋。<br>
+      <strong>现象：</strong>图画明明静止，道友眼中却见其飞速旋转。<br>
+      <strong>破妄：</strong>此乃周边视觉神经元对对比度与边缘的反应延迟所致。
+    </p>
+  </div>
+
+  <!-- 幻术 2: 几何错觉 -->
+  <div style="background: rgba(20, 20, 30, 0.9); border: 1px solid #3b82f6; border-radius: 12px; padding: 20px; position: relative; overflow: hidden; box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, transparent 48%, rgba(59, 130, 246, 0.2) 50%, transparent 52%); background-size: 20px 20px; animation: slide-lines 5s linear infinite;"></div>
+    <h3 style="color: #93c5fd; margin-top: 0; position: relative; z-index: 1;">📐 第二重：几何扭曲</h3>
+    <p style="color: #cbd5e1; font-size: 0.9em; position: relative; z-index: 1;">
+      <strong>代表幻术：</strong>赫林错觉、冯特错觉。<br>
+      <strong>现象：</strong>笔直之道，看似弯曲；平行之路，看似发散。<br>
+      <strong>破妄：</strong>背景辐射线干扰了大脑对角度的判断。
+    </p>
+  </div>
+
+  <!-- 幻术 3: 大小错觉 -->
+  <div style="background: rgba(20, 20, 30, 0.9); border: 1px solid #f43f5e; border-radius: 12px; padding: 20px; position: relative; overflow: hidden; box-shadow: 0 0 15px rgba(244, 63, 94, 0.3);">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 50% 50%, rgba(244, 63, 94, 0.1), transparent 70%); animation: breathe 4s infinite;"></div>
+    <h3 style="color: #fda4af; margin-top: 0; position: relative; z-index: 1;">⚖️ 第三重：大小迷障</h3>
+    <p style="color: #cbd5e1; font-size: 0.9em; position: relative; z-index: 1;">
+      <strong>代表幻术：</strong>缪勒 - 莱耶、艾宾浩斯。<br>
+      <strong>现象：</strong>同等长度之物，因箭头方向或周围圆圈大小而显不同。<br>
+      <strong>破妄：</strong>大脑根据环境参照物错误估算了实际尺寸。
+    </p>
+  </div>
+
+  <!-- 幻术 4: 色彩错觉 -->
+  <div style="background: rgba(20, 20, 30, 0.9); border: 1px solid #10b981; border-radius: 12px; padding: 20px; position: relative; overflow: hidden; box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: conic-gradient(from 0deg, rgba(16, 185, 129, 0.1), transparent); animation: spin-slow 10s linear infinite;"></div>
+    <h3 style="color: #6ee7b7; margin-top: 0; position: relative; z-index: 1;">🎨 第四重：色彩虚妄</h3>
+    <p style="color: #cbd5e1; font-size: 0.9em; position: relative; z-index: 1;">
+      <strong>代表幻术：</strong>棋盘阴影、同色异谱。<br>
+      <strong>现象：</strong>完全相同之色，置于不同背景下竟显两样。<br>
+      <strong>破妄：</strong>大脑自动修正了光照阴影，却弄巧成拙。
+    </p>
+  </div>
+
+</div>
+
+---
+
+## 🛠️ 【炼化秘籍】(技术架构)
+
+此幻境虽光怪陆离，实则由以下基础法门构建，道友亦可自行修炼：
+
+| 组件 | 功法 (技术) | 奥义说明 |
+| :--- | :--- | :--- |
+| **阵基** | `HTML5` | 构建画布与交互容器，稳固如山 |
+| **幻符** | `CSS3 Animation` | 核心幻术来源！利用 `keyframes`、`gradient` 制造动态错觉 |
+| **灵力** | `Vanilla JS` | 原生 JavaScript，无框架拖累，操控 DOM 如臂使指 |
+| **交互** | `SVG / Canvas` | 绘制精密几何图形，实现鼠标跟随与动态变形 |
+
+---
+
+## 🧘 【参悟指南】(如何使用)
+
+### 方法一：远程神识访问
+贫道已将此幻境部署于云端，道友只需轻点下方链接，即可瞬间传送：
+👉 **[点击进入幻真诀秘境](https://your-username.github.io/visual-illusions/)**
+
+### 方法二：本地开辟洞府
+若道友想深入研究幻术原理，可将源码下载至本地参悟：
+
+```bash
+# 1. 施展克隆术
+git clone https://github.com/your-username/visual-illusions.git
+
+# 2. 进入秘境目录
+cd visual-illusions
+
+# 3. 以神识（浏览器）打开 index.html
+open index.html
+```
+
+---
+
+## 🔮 【未来渡劫计划】
+
+贫道仍在闭关推演，计划在未来版本中加入更多高阶幻术：
+
+- [ ] **3D 立体幻阵**：需佩戴红蓝眼镜方可观看的立体错觉。
+- [ ] **听觉错觉**：谢泼德音调（Shepard Tone），永远在上升却从未到达的音符。
+- [ ] **触觉幻术**：配合手机震动反馈的错觉体验。
+- [ ] **道友排行榜**：记录哪位道友的“慧眼”最厉害，最难被错觉迷惑。
+
+---
+
+## ⚖️ 【天道誓言】(许可证)
+
+本项目遵循 **MIT 天道誓言**。
+幻术无主，有缘者得之。诸位道友可自由复制、修改、传播此代码，甚至用于商业修行，只需保留贫道之名号即可。
+
+---
+
+<div align="center">
+
+## 🙏 【结语】
+
+**“凡所有相，皆是虚妄。若见诸相非相，即见如来。”**
+
+愿此**「幻真诀」**能成为道友修行路上的磨刀石。
+若觉得此幻境有趣，还请 **Star (⭐)** 支持，助贫道积累功德，解锁更多幻术！
+
+<br>
+
+<!-- 底部动态波浪线 -->
+<div style="height: 4px; background: linear-gradient(90deg, #a855f7, #3b82f6, #10b981, #f43f5e, #a855f7); background-size: 200% 100%; animation: gradient-move 3s linear infinite; border-radius: 2px; margin: 20px 0;"></div>
+
+**祝诸位道友：慧眼如炬，看破红尘幻象！** 👁️✨
+
+<br>
+<small>Made with 🧠 and 👁️ by 贫道 (Your Name)</small>
+
+</div>
+
+<!-- 定义关键帧动画 -->
+<style>
+@keyframes spin-illusion {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes spin-illusion-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+@keyframes pulse-bg {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+@keyframes slide-lines {
+  0% { background-position: 0 0; }
+  100% { background-position: 40px 40px; }
+}
+@keyframes breathe {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+</style>
+```
+
+### 💡 使用说明
+
+1.  **复制**上面的完整代码。
+2.  在您的 GitHub 仓库根目录下，创建或编辑 `README.md` 文件。
+3.  **粘贴**并保存。
+4.  **效果预览**：
+    *   顶部会出现一个**模拟“旋转蛇”错觉的动态图标**，盯着看会感觉它在转动。
+    *   四个核心功能卡片拥有**不同的动态背景**（脉冲、滑动、呼吸、旋转），模拟不同类型的视觉错觉。
+    *   底部的分隔线是**流光溢彩**的渐变动效。
+    *   全文保持**修仙者**的口吻，将“视觉错觉”比喻为“幻术”，将“大脑处理”比喻为“心神”。
+
+这次的内容是严格基于您提供的**视觉错觉网站**文件生成的，希望这份充满“幻术”与“仙气”的 README 能让您的项目脱颖而出！如有需要调整的地方，请随时吩咐。
